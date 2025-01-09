@@ -1,0 +1,111 @@
+body{
+    margin: 0 10px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    /* background-color: black; */
+    margin: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+
+}
+
+
+.box:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+.box img{
+    margin: -100px;
+    margin-top: 80px;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#abt{
+    font-family: 'Pirata One', cursive;
+    font-size: 3rem;
+    margin: 10px 0;
+    
+}
+
+#prob{
+    text-align: center;
+    font-family: 'Pirata One', cursive;
+    font-size: 4rem;
+    margin: 10px 0;
+    color: #00FFFF;
+}
+
+.ps{
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.pz{
+    font-family: 'Pirata One', cursive;
+    font-size: 1.5rem;
+    color:darkseagreen;
+}
+
+.prz{
+    font-family: 'Pirata One', cursive;
+    font-size: 2rem;
+    color: darkgoldenrod;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    /* background-color: black; */
+    margin: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(8px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1:hover{
+    transform: scale(1.1);
+
+}
+
+#prize{
+    font-family: 'Pirata One', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: #00FFFF;
+}
+
+.notice{
+    background-color: rgba(173, 216, 230, 0.3);
+    padding: 25px;
+}
+
+#note{
+    font-family: 'Pirata One', cursive;
+    font-size: 4rem;
+    text-align: center;
+    color: wheat;
+}
+
+li{
+    font-size:20px;
+}
